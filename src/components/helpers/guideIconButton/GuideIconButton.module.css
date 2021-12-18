@@ -1,0 +1,39 @@
+.profile_name_label{
+    position: absolute;
+    width: 60px;
+    height: 13px;
+    left: 65px;
+    top: 10px;
+    font-family: 'Merriweather', serif;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 13px;
+    text-align: left;
+    color: #2B2D2F;
+
+}
+
+.profile_name{
+    position: absolute;
+    height: 18px;
+    width: 190px;
+    top: 22px;
+    left: 65px;
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: left;
+    color: #2B2D2F;
+}
+
+.profile_avatar{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 6px #f8f8f8 solid;
+    top: -5px;
+    left: -2px;
+}
+

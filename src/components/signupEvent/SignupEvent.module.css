@@ -1,0 +1,237 @@
+.signup{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    width: 1366px;
+    height: 864px;
+    background: #F8F8F8 no-repeat padding-box;
+    opacity: 1;
+}
+
+.signup_details{
+    position: absolute;
+    top: 180px;
+    left: 45px;
+}
+
+.signup_left{
+    width: 239px;
+    height: 864px;
+    background: #2B2D2F no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.signup_right{
+    position: relative;
+    height: 864px;
+    width: 1127px;
+    padding-left: 49px;
+}
+
+.signup_title{
+    width: 412px;
+    height: 40px;
+    margin-top: 84px;
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: left;
+    color: #2B2D2F;
+    opacity: 1;
+}
+
+.signup_form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 331px;
+}
+.signup_form_input_name{
+    width: 359px;
+    height: 26px;
+    opacity: 1;
+    border-bottom: 2px #2B2D2F solid;
+    background-color: #f8f8f8;
+}
+
+.signup_form_input_phone{
+    margin-top: 19px;
+    width: 359px;
+    height: 26px;
+    opacity: 1;
+    border-bottom: 2px #2B2D2F solid;
+    background-color: #f8f8f8;
+}
+
+.signup_form_input_name::placeholder, .signup_form_input_phone::placeholder, .signup_form_input_email::placeholder{
+    width: 70px;
+    height: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bold;
+    text-align: left;
+    color: #2B2D2F;
+    opacity: 1;
+}
+
+.signup_form_input_email{
+    margin-top: 19px;
+    width: 359px;
+    height: 26px;
+    opacity: 1;
+    border-bottom: 2px #2B2D2F solid;
+    background-color: #f8f8f8;
+}
+
+.signup_form_quantity{
+    margin-top: 19px;
+    width: 359px;
+    height: 26px;
+}
+
+.signup_form_title{
+    width: 98px;
+    height: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bold;
+    text-align: left;
+    color: #2B2D2F;
+    opacity: 1;
+}
+
+.signup_form_subtitle{
+    width: 51px;
+    height: 18px;
+    margin-left: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: normal;
+    text-align: left;
+    color: #2B2D2F;
+    opacity: 1;
+}
+
+.signup_form_button{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px 0;
+    width: 220px;
+    height: 50px;
+    background-color: #2B2D2F;
+    border: 1px solid #2B2D2F;
+    border-radius: 25px;
+    color: #f8f8f8;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.signup_form_button:hover{
+    background-color: #f8f8f8;
+    color: #2B2D2F;
+}
+
+.signup_form_button:disabled{
+    cursor: default;
+    background-color: #f8f8f8;
+    color: #2B2D2F;
+}
+
+.signup_security_regulations{
+    width: 195px;
+    height: 45px;
+    margin-top: 19px;
+    padding-left: 44px;
+    line-height: 13px;
+}
+
+.signup_security_regulations span{
+    font-family: 'Merriweather', serif;
+    font-size: 10px;
+    font-weight: normal;
+    text-align: left;
+    color: #B2B3B4;
+}
+
+.signup_security_warning{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 485px;
+    left: 727px;
+    width: 333px;
+    height: 82px;
+    text-align: left;
+    color: #2B2D2F;
+    opacity: 1;
+}
+
+.signup_security_warning_title{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: bold;
+    text-align: left;
+    color: #2B2D2F;
+    opacity: 1;
+}
+
+.signup_security_warning_subtitle{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: normal;
+    font-style: italic;
+    text-align: left;
+    color: #2B2D2F;
+    opacity: 1;
+}
+
+
+.signup_button_counting_wrapper{
+    display: flex;
+    position: absolute;
+    top: 584px;
+    left: 315px;
+}
+
+.signup_button_add, .signup_button_delete{
+    height: 40px;
+    width: 40px;
+    background-color: #f8f8f8;
+    opacity: 1;
+    transition: opacity .2s linear;
+}
+
+.signup_button_counting_title{
+    display: flex;
+    width: 20px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bold;
+    text-align: left;
+    color: #2B2D2F;
+    opacity: 1;
+}
+
+.signup_button_add:disabled, .signup_button_delete:disabled{
+    opacity: 0.5;
+}
+
+a{
+    color: #b2b3b4;
+    transition: color .2s linear;
+}
+
+a:hover{
+    color: #2b2d2f;
+}

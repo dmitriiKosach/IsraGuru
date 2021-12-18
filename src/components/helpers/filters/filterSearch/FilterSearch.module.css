@@ -1,0 +1,44 @@
+.input_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60px;
+}
+
+::placeholder{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #B2B3B4;
+}
+
+.label{
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300;
+    color: #EBDFCD;
+}
+
+.input_inner{
+    position: relative;
+}
+
+.input_search{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #B2B3B4;
+    width: 359px;
+    background-color: #2B2D2F;
+    border-bottom: 2px solid #F8F8F8;
+    padding-bottom: 7px;
+    padding-left: 28px;
+}
+
+.icon_search{
+    position: absolute;
+    top: 5px;
+    color: #F8F8F8;
+    height: 18px;
+    width: 18px;
+}

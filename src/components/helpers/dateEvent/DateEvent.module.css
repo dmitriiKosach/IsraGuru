@@ -1,0 +1,38 @@
+.date_item_inner{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    text-align: center;
+}
+
+.date_item_day{
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 30px;
+    color: #2B2D2F;
+}
+
+.date_items{
+    display: flex;
+    flex-direction: column;
+    margin-left: 18px;
+    width: 91px;
+}
+
+.date_item_months, .date_item_week{
+    height: 18px;
+    font-family: 'Merriweather', serif;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    color: #2B2D2F;
+}
+
+.date_item_border{
+    height: 1px;
+    width: 87px;
+    border-top: 1px #2B2D2F dashed;
+}

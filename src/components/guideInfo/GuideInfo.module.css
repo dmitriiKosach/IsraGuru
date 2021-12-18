@@ -1,0 +1,180 @@
+.info{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    width: 1366px;
+    height: 1987px;
+    opacity: 1;
+}
+
+.info_left{
+    width: 239px;
+    height: 1987px;
+    background: #2B2D2F no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.info_avatar {
+    position: absolute;
+    top: 136px;
+    left: 152px;
+    height: 350px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.info_avatar img{
+    height: 350px;
+    width: 350px;
+}
+
+.info_right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 1127px;
+    height: 1987px;
+}
+
+.info_title_wrapper{
+    width: 823px;
+    height: 252px;
+    padding-top: 166px;
+    padding-left: 92px;
+}
+
+.info_title{
+    font-family: "Merriweather", serif;
+    font-size: 32px;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 40px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #2B2D2F;
+    opacity: 1;
+}
+
+.info_subtitle{
+    font-family: "Merriweather", serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 27px;
+    text-align: left;
+    letter-spacing: 0px;
+    margin-top: 13px;
+    color: #2B2D2F;
+    opacity: 1;
+}
+
+.info_content_wrapper{
+    width: 823px;
+    padding-left: 92px;
+    padding-top: 19px;
+}
+
+.info_content_title, .info_footer_title, .info_contact_title {
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 31px;
+    text-align: left;
+    color: #2B2D2F;
+    opacity: 1;
+}
+
+.info_content_subtitle, .info_footer_subtitle, .info_contact_phone, .info_contact_social{
+    width: 630px;
+    margin-top: 15px;
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 27px;
+    text-align: left;
+    color: #2B2D2F;
+    opacity: 1;
+}
+
+.info_excursions_wrapper{
+    width: 823px;
+    height: 31px;
+    padding-left: 92px;
+    margin-top: 45px;
+    margin-bottom: 36px;
+}
+
+.info_footer_wrapper{
+    width: 823px;
+    margin-top: 60px;
+    padding-left: 92px;
+}
+
+.info_footer_subtitle{
+    margin-top: 15px;
+    width: 630px;
+    height: 68px;
+}
+
+.info_footer_wrapper ul{
+    margin-left: -14px;
+}
+
+.info_footer_wrapper ul li{
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: #2B2D2F;
+    opacity: 1;
+}
+
+.info_contact_wrapper{
+    width: 823px;
+    margin-top: 45px;
+    padding-left: 92px;
+}
+
+.info_contact_social_icons{
+    margin-top: 15px;
+
+}
+
+.info_contact_social_icon{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.info_contact_social_icon img{
+    height: 35px;
+    transition: all .2s linear;
+}
+
+.info_contact_social_icon img:hover{
+    transform: translateY(-5px);
+}
+
+.button_close{
+    position: fixed;
+    background-color: #f8f8f8;
+    right: 30px;
+    top: 30px;
+    transition: all .3s linear;
+    z-index: 1;
+}
+
+.button_close:hover{
+    transform: rotate(90deg);
+}
+
+.button_close img{
+    height: 25px;
+}
+

@@ -1,0 +1,216 @@
+.profile_wrapper{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    width: 1366px;
+    height: 1987px;
+    opacity: 1;
+}
+
+.profile_left{
+    width: 239px;
+    height: 1987px;
+    background: #2B2D2F no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.profile_left_avatar {
+    position: absolute;
+    top: 136px;
+    left: 152px;
+    height: 350px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.profile_left_avatar img{
+    height: 350px;
+    width: 350px;
+}
+
+.profile_right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 1127px;
+    height: 1987px;
+}
+
+.profile_right_header{
+    width: 823px;
+    height: 252px;
+    padding-top: 166px;
+    padding-left: 92px;
+}
+
+.profile_name{
+    display: flex;
+}
+
+.profile_name textarea{
+    height: 43px;
+    font-family: "Merriweather", serif;
+    background: none;
+    font-size: 32px;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 40px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #2B2D2F;
+    opacity: 1;
+    resize: none;
+}
+
+.profile_license{
+    font-family: "Merriweather", serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 27px;
+    text-align: left;
+    letter-spacing: 0px;
+    margin-top: 13px;
+    color: #2B2D2F;
+    opacity: 1;
+}
+
+.profile_right_body{
+    width: 823px;
+    padding-left: 92px;
+    padding-top: 19px;
+}
+
+.profile_body_description_wrapper, .profile_contact_description_wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.profile_body_description_title, .profile_footer_description_title, .profile_contact_description_title {
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 31px;
+    text-align: left;
+    color: #2B2D2F;
+    opacity: 1;
+}
+
+.profile_body_description_subtitle{
+    height: 308px;
+    resize: none;
+}
+
+.profile_body_description_subtitle, .profile_footer_description_subtitle, .profile_contact_description_phone, .profile_contact_description_social{
+    display: block;
+    width: 630px;
+    background-color: #F8F8F8;
+    margin-top: 15px;
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 27px;
+    text-align: left;
+    color: #2B2D2F;
+    opacity: 1;
+}
+
+.profile_right_footer{
+    width: 823px;
+    margin-top: 60px;
+    padding-left: 92px;
+}
+
+.profile_footer_description_wrapper ul{
+    margin-left: -14px;
+}
+
+.profile_footer_description_wrapper ul li{
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: #2B2D2F;
+    opacity: 1;
+}
+
+.profile_right_contact{
+    width: 823px;
+    margin-top: 45px;
+    padding-left: 92px;
+}
+
+.profile_contact_description_social_icons{
+    margin-top: 15px;
+
+}
+
+.profile_contact_description_social_icon{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.profile_contact_description_social_icon img{
+    height: 35px;
+    transition: all .2s linear;
+}
+
+.profile_contact_description_social_icon img:hover{
+    transform: translateY(-5px);
+}
+
+.profile_icon_edit{
+    background: none;
+    font-size: 24px;
+    margin-left: 10px;
+    padding-bottom: 3px;
+}
+
+/*---------------------------------------*/
+.button_close{
+    position: fixed;
+    background-color: #f8f8f8;
+    right: 30px;
+    top: 30px;
+    transition: all .3s linear;
+    z-index: 1;
+}
+
+.button_close:hover{
+    transform: rotate(90deg);
+}
+
+.button_close img{
+    height: 25px;
+}
+
+.logout_button{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px 0;
+    width: 220px;
+    height: 50px;
+    background-color: #2B2D2F;
+    border: 1px solid #f8f8f8;
+    border-radius: 25px;
+    color: #f8f8f8;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.logout_button:hover{
+    background-color: #f8f8f8;
+    border: 1px solid #2B2D2F;
+    color: #2B2D2F;
+}
+
+

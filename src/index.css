@@ -1,0 +1,73 @@
+body {
+  font-family: 'Merriweather', serif;
+  background-color: #f8f8f8;
+  color: #2B2D2F;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+input,
+button,
+select,
+textarea{
+  outline: 0 !important;
+  border: none;
+}
+
+/*-----------------------------------*/
+.gm-control-active{
+  display: none;
+}
+.gm-fullscreen-control{
+  display: none;
+}
+
+.gmnoprint {
+  display: none;
+}
+
+.gm-style-cc {
+  display: none;
+}
+
+.gm-control-active{
+  display: none;
+}
+.gm-fullscreen-control{
+  display: none;
+}
+
+.gmnoprint {
+  display: none;
+}
+
+.gm-style-cc {
+  display: none;
+}
+
+.slide-number, .dots, .carousel-caption-bottom, .prev, .next  {
+  display: none;
+}
+
+.fade:not(.show) {
+  opacity: 1;
+}
+
+.thumbnail.active-thumbnail {
+  border: #b2b3b4 solid 3px;
+}

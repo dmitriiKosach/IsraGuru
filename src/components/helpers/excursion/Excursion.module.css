@@ -1,0 +1,246 @@
+
+.excursion_item{
+    display: flex;
+    flex-direction: row;
+    width: 1276px;
+    height: 200px;
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    margin: 24px auto 0;
+
+}
+
+.excursion_item_image{
+    width: 200px;
+    height: 200px;
+    background-size:cover;
+}
+
+.excursion_item_content_left{
+    display: flex;
+    flex-direction: column;
+    width: 525px;
+}
+
+.excursion_item_title{
+
+    height: 66px;
+    text-align: left;
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 900;
+    color: #2B2D2F;
+    margin-top: 14px;
+    margin-left: 44px;
+}
+
+.excursion_item_subtitle{
+    height: 61px;
+    text-align: left;
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 18px;
+    font-weight: 400;
+    color: #2B2D2F;
+    margin-top: 6px;
+    margin-left: 44px;
+}
+
+.excursion_item_level{
+    height: 18px;
+    margin-top: 12px;
+    margin-left: 44px;
+    padding-top: 6px;
+    text-align: left;
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 18px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #2B2D2F;
+    border-top: 1px #2B2D2F solid;
+}
+
+.excursion_item_level img{
+    position: absolute;
+    height: 18px;
+    width: 20px;
+}
+
+.excursion_item_level span{
+    margin-left: 24px;
+}
+
+.excursion_item_content_center{
+    position: relative;
+    margin-left: 40px;
+    padding-top: 13px;
+    width: 215px;
+}
+
+.excursion_item_content_center_date{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    left: 10px;
+    height: 36px;
+    width: 140px;
+}
+
+.excursion_item_content_center_profile{
+    position: absolute;
+    top: 135px;
+}
+
+.excursion_item_content_right{
+    position: relative;
+    margin-left: 45px;
+    padding-top: 13px;
+    width: 220px;
+}
+
+.excursion_item_position span{
+    position: absolute;
+    margin-left: 33px;
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    text-align: left;
+    color: #2B2D2F;
+}
+.excursion_item_position img{
+    position: absolute;
+    left: -2px;
+    width: 16px;
+    height: 16px;
+}
+
+.excursion_item_time img{
+    position: absolute;
+    top: 35px;
+    height: 16px;
+    width: 16px;
+}
+
+.excursion_item_time div{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    position: absolute;
+    top: 35px;
+    margin-left: 33px;
+}
+
+.excursion_item_time_clock{
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    text-align: left;
+    color: #2B2D2F;
+}
+.excursion_item_time_clock_subtitle{
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: left;
+    color: #2B2D2F;
+    margin-left: 5px;
+}
+
+.excursion_item_price img{
+    position: absolute;
+    top: 55px;
+    left: -2px;
+    width: 20px;
+    height: 16px;
+}
+
+.excursion_item_price div{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 55px;
+    margin-left: 33px;
+}
+
+.excursion_item_price_shekel{
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    text-align: left;
+    color: #2B2D2F;
+}
+
+.excursion_item_price_shekel_subtitle{
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: left;
+    color: #2B2D2F;
+    margin-left: 5px;
+}
+
+.excursion_item_quantity img{
+    position: absolute;
+    top: 75px;
+    left: -2px;
+    width: 20px;
+    height: 16px;
+}
+
+.excursion_item_quantity div{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 75px;
+    margin-left: 33px;
+}
+
+.excursion_item_quantity_count{
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    text-align: left;
+    color: #2B2D2F;
+    padding: 0 5px;
+}
+
+.excursion_item_quantity_title{
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    text-align: left;
+    color: #2B2D2F;
+}
+
+.button_link{
+    position: absolute;
+    top: 135px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 0;
+    width: 220px;
+    height: 50px;
+    background-color: #2B2D2F;
+    border: 1px solid #2B2D2F;
+    border-radius: 25px;
+    color: #f8f8f8;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.button_link:hover{
+    background-color: #f8f8f8;
+    color: #2B2D2F;
+}

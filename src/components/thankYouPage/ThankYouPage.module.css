@@ -1,0 +1,214 @@
+
+.thank{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    width: 1366px;
+    height: 864px;
+    opacity: 1;
+}
+
+.thank_left{
+    width: 239px;
+    height: 100%;
+    background: #2B2D2F no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.thank_right{
+    position: relative;
+    height: 100%;
+    width: 1127px;
+    padding-left: 49px;
+}
+
+.thank_title{
+    width: 546px;
+    height: 40px;
+    margin-top: 84px;
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 40px;
+    text-align: left;
+    color: #2B2D2F;
+    opacity: 1;
+}
+
+.thank_subtitle{
+    width: 437px;
+    height: 99px;
+    font-family: "Merriweather", serif;
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 900;
+    text-align: left;
+    color: #2B2D2F;
+    opacity: 1;
+    margin: 84px 0 0 38px;
+}
+
+.thank_content_body{
+    display: flex;
+    height: 64px;
+    width: 417px;
+    margin: 9px 0 0 38px;
+    border-top: 1px #2b2d2f solid;
+    border-bottom: 1px #2b2d2f solid;
+}
+
+.thank_content_body_left{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 231px;
+    height: 100%;
+}
+
+.ticket{
+    position: absolute;
+    margin-top: 159px;
+    margin-left: 223px;
+    height: 335px;
+    width: 860px;
+}
+
+.ticket_qr{
+    position: absolute;
+    top: 260px;
+    left: 580px;
+    height: 145px;
+    width: 145px;
+}
+
+.thank_content_body_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 186px;
+    height: 100%;
+}
+
+
+.thank_content_body_position span{
+    padding-left: 10px;
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    text-align: left;
+    color: #2B2D2F;
+}
+.thank_content_body_position img{
+    width: 16px;
+    height: 16px;
+}
+
+.thank_content_body_time img{
+    height: 16px;
+    width: 16px;
+}
+.thank_content_body_time{
+    display: flex;
+    align-items: center;
+}
+
+
+.thank_content_body_time_clock{
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    padding-left: 10px;
+    font-weight: bold;
+    line-height: 18px;
+    text-align: left;
+    color: #2B2D2F;
+}
+.thank_content_body_time_clock_subtitle{
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: left;
+    color: #2B2D2F;
+    margin-left: 5px;
+}
+
+
+.thank_content_footer{
+    display: flex;
+    width: 477px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: -22px;
+}
+.thank_content_footer_profile{
+    position: relative;
+    width: 291px;
+    height: 100%;
+
+}
+
+.thank_content_footer_count{
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 2px;
+    width: 186px;
+    height: 100%;
+}
+
+.thank_content_footer_count img{
+    height: 16px;
+    width: 14px;
+}
+
+.thank_content_footer_count span{
+    height: 18px;
+    padding-left: 10px;
+    font-family: "Merriweather", serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: left;
+    color: #2B2D2F;
+    opacity: 1;
+}
+
+.thank_button_save, .thank_button_send{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 95px;
+    margin-right: 50px;
+    padding: 10px 0;
+    width: 220px;
+    height: 50px;
+    border: 1px solid #2B2D2F;
+    border-radius: 25px;
+
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.thank_button_save:hover{
+    background-color: #f8f8f8;
+    color: #2B2D2F;
+}
+
+.thank_button_send:hover{
+    background-color: #2B2D2F;
+    color: #f8f8f8;
+}
+
+.thank_button_save{
+    background-color: #2B2D2F;
+    color: #f8f8f8;
+}
+
+.thank_button_send{
+    background-color: #f8f8f8;
+    color: #2b2d2f;
+}
+

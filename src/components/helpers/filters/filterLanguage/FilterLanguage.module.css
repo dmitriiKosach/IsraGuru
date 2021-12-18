@@ -1,0 +1,44 @@
+.input_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60px;
+}
+
+::placeholder{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #B2B3B4;
+}
+
+.label{
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300;
+    color: #EBDFCD;
+}
+
+.buttons_language{
+    display: flex;
+    justify-content: space-around;
+    width: 132px;
+    border-bottom: 2px solid #F8F8F8;
+}
+
+.buttons_language button{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #2B2D2F;
+    color: #B2B3B4;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.buttons_language button:hover{
+    background-color: #EBDFCD;
+    color: #2B2D2F;
+}

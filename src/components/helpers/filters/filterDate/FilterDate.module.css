@@ -1,0 +1,60 @@
+.input_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60px;
+}
+
+::placeholder{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #B2B3B4;
+}
+
+.input_date{
+    display: flex;
+    width: 216px;
+}
+
+.date{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    color: #EBDFCD;
+    width: 100px;
+    background-color: #2b2d2f;
+    border-bottom: 2px white solid;
+    margin-right: 16px;
+    padding-bottom: 7px;
+    padding-left: 0px;
+    cursor: pointer;
+}
+
+.date:last-child{
+    margin-right: 0px;
+}
+
+.label{
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300;
+    color: #EBDFCD;
+}
+
+.modal_inner{
+    height: 400px;
+    width: 1276px;
+    background-color: #F8F8F8;
+    /*background-color: #2b2d2f;*/
+}
+
+.modal_helper{
+    position: absolute;
+    background-color: #f8f8f8;
+    height: 25px;
+    width: 25px;
+    top: -6px;
+    transform: rotate(-45deg);
+}
