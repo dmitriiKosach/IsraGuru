@@ -1,5 +1,5 @@
-export const MAPS_JAVASCRIPT_API = 'AIzaSyAq7uNecEUIl8RoO9d7YfoSZhnQyi4zhaw';
-export const GEOCODING_API = 'AIzaSyCJRF8b59Xu9WuqTJiLypgEZaB-oh-g0pI';
+// export const MAPS_JAVASCRIPT_API = 'AIzaSyAq7uNecEUIl8RoO9d7YfoSZhnQyi4zhaw';
+// export const GEOCODING_API = 'AIzaSyCJRF8b59Xu9WuqTJiLypgEZaB-oh-g0pI';
 export const grey = [
     {
         elementType: "geometry",
